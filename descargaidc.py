@@ -16,8 +16,6 @@ import shutil
 
 def ExtractIDC(NumeroSegSocial,CCC):
     chromeOptions = webdriver.ChromeOptions()
-    '''prefs = {"download.default_directory" : r'C://Users//MiguelRodríguezBubbe//MooveCars//Ficheros Generales - Compartido Gestión Nóminas//DescargaIDC//'}
-    chromeOptions.add_experimental_option("prefs",prefs)'''
     NumeroSegSocial = NumeroSegSocial.replace('/','').replace(' ','')
     CCC = CCC.replace('/','').replace(' ','')
     prefix = NumeroSegSocial[0:2]
